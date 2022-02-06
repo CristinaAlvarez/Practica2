@@ -19,7 +19,11 @@ En resumen, la práctica cuenta con:
   - Popup para el formulario
   - Enlaces externos a las páginas web de las tiendas
   - 3 archivos html con enlaces internos entre los mismos mediante los botones
- 
+
+Para poder acceder a la web lanzada en Git Pages ha de acceder al siguiente link: 
+
+https://cristinaalvarez.github.io/Practica2/ 
+
 
 
 
