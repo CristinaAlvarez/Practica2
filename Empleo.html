@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Empleo</title>
+    <link rel="icon" type="image/png" href="logo.png"/>
+    <meta charset="utf-8">
+
+    <style>
+        html{
+        font-family:Lucida Console;
+        color: black;
+        background-color: #2F4F4F;
+        margin: 50px 50px 75px 75px;
+        }
+        .Main{
+            grid-area:main;
+            width:1100px;
+            border: 6px solid black;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<form>
+    <a href="Inditex.html">
+        <button style="float: right" type="button" class="btn btn-info" >Conócenos</button>
+    </a>
+</form>
+<form>
+    <a href="Marcas.html">
+        <button style="float: right" type="button" class="btn btn-info" >Marcas</button>
+        <br>
+    </a>
+</form>
+<img src="data:image/png;base64,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" width="10%" height="10%">
+
+<div class="main">
+    <div class="bg"></div>
+    <div>
+        <center><img src="https://www.inditexcareers.com/portalweb/documents/10769/242900276/store-header1/dcdb67f0-d580-cc9c-bfe0-a34eeb3db24b" style="margin-top:50px;" width="1020px" height="462px" ></center></img>
+    </div>
+    <h1 style="font-size:70px;"><center>TRABAJA CON NOSOTROS</center></h1>
+</div>
+
+<div class="subtitle">
+    <h3 style="font-size:30px;"><center>Somos lo que te pones para ir a trabajar, con lo que decides decorar tu vida, lo que
+        escoges para esa ocasión especial.
+        <br>
+        El trabajo en equipo, la inquietud, la diversidad, la sostenibilidad, la creatividad y la humildad mueven a
+        nuestras más de 144.000 personas que forman parte del grupo Inditex.
+        <br>
+        Si quieres formar parte de esta comunidad rellena el formulario para que podamos contactar contigo</center></h3>
+
+    <br>
+    <br>
+</div>
+
+<div class="Main">
+    <div align="middle">
+
+        <form action="signup" method="post" id="signup">
+
+            <legend>Por favor rellene sus datos:</legend>
+            <div style="margin:10px;">
+                <div class="field">
+                    <p>
+                        <label for="fname">Nombre:</label>
+                        <input type="text" id="fname" name="name" >
+                        <small></small>
+                    </p>
+
+                </div>
+                <div class="field">
+                    <p>
+                        <label for="lname">Apellidos:</label>
+                        <input type="text" id="lname" name="lname" >
+                        <small></small>
+                    </p>
+
+                </div>
+                <div class="field">
+                    <p>
+                        <label for="address">Dirección:</label>
+                        <input type="text" id="address" name="address" >
+                        <small></small>
+                    </p>
+
+                </div>
+
+                <div class="field">
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" >
+                        <small></small>
+                    </p>
+
+                </div>
+
+                <div class="field">
+                    <p>
+                        <label for="phone">Número de telefono:</label>
+                        <input type="tel" id="phone" name="phone" >
+                        <small></small>
+                    </p>
+
+                </div>
+
+                <div class="field">
+                    <p>
+                        <label for="fbrand">Seleccione la marca en la que quiere trabajar:</label>
+                        <select name="fbrand">
+                            <option value="1">Zara</option>
+                            <option value="2">Zara Home</option>
+                            <option value="3">Pull and Bear</option>
+                            <option value="4">Massimo Dutti</option>
+                            <option value="5">Bershka</option>
+                            <option value="6">Stradivarius</option>
+                            <option value="7">Oysho</option>
+                        </select>
+                    </p>
+                    <small></small>
+                </div>
+
+                <div class="field">
+                    <p>
+                        <label for="job">Seleccione el puesto que solicita:</label>
+                        <select name="job">
+                            <option value="1">Tienda</option>
+                            <option value="2">Logística</option>
+                            <option value="3">Oficina</option>
+                            <option value="4">Producto</option>
+                        </select>
+                    </p>
+
+                    <small></small>
+                </div>
+                <div class="field">
+                    <label>Seleccione una fecha para tener una entrevista:</label>
+                    <input type="date" min="2022-01-01" max="2021-02-31">
+                    <small></small>
+                </div>
+
+                <p style="float:center;">
+                    <button type="submit">Solicitar</button>
+                </p>
+
+            </div>
+        </form>
+        <script src="app.js"></script>
+    </div>
+</div>
+<br>
+<br>
+
+</body>
+</html>
